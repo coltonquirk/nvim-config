@@ -1,0 +1,46 @@
+snippet cols "Description" iA
+:::: {.columns}
+
+::: {.column width="${1:50}%"}
+
+${2}
+
+:::
+
+::: {.column width="${3:50}%"}
+
+${4}
+
+:::
+
+::::
+${0}
+endsnippet
+
+snippet fig "Figure" m
+::: {#fig-${1:placeholder}}
+
+${2}
+
+:::
+
+${3}
+endsnippet
+
+snippet mk "Inline math" mA 
+$${1}$ ${2}
+endsnippet
+
+snippet dm "Display math" mA 
+$$ 
+	${1}
+$$
+${2}
+endsnippet
+
+snippet notes "Speaker Notes" mA 
+::: {.notes}
+${1}
+:::
+${2}
+endsnippet
