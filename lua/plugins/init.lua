@@ -47,6 +47,7 @@ require("lazy").setup({
 	-- require("plugins.ultisnips"), -- should be included in cmp
 	require("plugins.quarto"),
 	require("plugins.typst"),
-	require("plugins.harpoon")
+	require("plugins.harpoon"),
+	require("plugins.zotcite")
 })
 

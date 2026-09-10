@@ -4,5 +4,6 @@ fortran.
 
 TODO:
 - [ ] Switch to vim-slime (with tmux?) for REPL stuff
+- [ ] Switch to blink.cmp for completions?
 - [ ] Switch to LuaSnips rather than UltiSnips
 - [ ] Add more quarto functionality
